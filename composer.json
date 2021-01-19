@@ -6,5 +6,10 @@
         "psr-4": {
             "App\\": "app/"
         }
+    },
+    "scripts": {
+        "suparat": [
+            "rm -rf v"
+        ]
     }
 }
