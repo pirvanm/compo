@@ -3,14 +3,15 @@
 namespace App;
 
 
+
 use App\Db\User as User;
 
 class Main
 {
     public function take()
     {
-        $users = new User;
-        //$users = .\App\Db\User;
+        //$users = new User;
+        $users = new  User;
 
         var_dump($users);
     }
